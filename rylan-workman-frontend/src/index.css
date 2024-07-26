@@ -1,0 +1,35 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rylan-workman-header {
+  font-size: 48px;
+  font-weight: 600;
+}
+.rylan-workman-sub-header {
+  font-size: 28px;
+  font-weight: 600;
+  position: relative; top: -15px;
+}
+
+@media (min-width: 768px) {
+  .rylan-workman-header {
+    font-size: 50px;
+  }
+} 
+@media (min-width: 992px) {
+  .rylan-workman-header {
+    font-size: 68px;
+  }
+  .rylan-workman-sub-header {
+    font-size: 38px;
+    position: relative; top: -25px;
+  }
+} 
+@media (min-width: 1200px) {
+  .rylan-workman-header {
+    font-size: 82px;
+  }
+} 
